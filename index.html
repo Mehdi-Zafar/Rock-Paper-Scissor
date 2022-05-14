@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper and Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>WELCOME</h1>
+      <h2>Let's play a game of rock, paper and scissors!</h2>
+      <h3>Computer Choice: <span id="computerChoice"></span></h3>
+      <h3>User Choice: <span id="userChoice"></span></h3>
+      <div>
+        <button onclick="func('Rock')" id="Rock" value="Rock">Rock</button>
+        <button onclick="func('Paper')" id="Paper" value="Paper">Paper</button>
+        <button onclick="func('Scissors')" id="Scissors" value="Scissors">
+          Scissors
+        </button>
+      </div>
+      <div class="Score">
+        <span class="Score1">Result: <span id="result"></span></span>
+        <span class="Score2">Round: <span id="round"></span></span>
+      </div>
+      <div class="Score">
+        <span class="Score1">User Score: <span id="userScore">0</span></span>
+        <span class="Score2"
+          >Computer Score: <span id="computerScore">0</span></span
+        >
+      </div>
+    </div>
+  </body>
+</html>
